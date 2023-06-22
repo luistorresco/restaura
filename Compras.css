@@ -1,0 +1,379 @@
+body
+{
+    margin: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+.loader {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: url('Imagenes/love-food.gif') 50% 50% no-repeat rgb(249,249,249);
+    opacity: .8;
+}
+#Inicio a:hover
+{
+    font-size: 30px;
+    border-bottom: 5px solid red;
+}
+.arriba
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 300px;
+    font-size: 30px;
+    text-shadow: 5px 5px 5px  red;
+    color: white;
+    
+
+}
+.abajo
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: black;
+    text-shadow: 5px 5px 5px red;
+    
+    
+}
+.card a:hover
+{
+    box-shadow: 0 3px 3px rgb(19, 18, 18);
+}
+
+@media (min-width:576px) and (max-width:799.98px)
+{
+   .contenido
+    {
+    width: 100%;
+    height: 440px;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+.card
+    {
+    width: 170px;
+    height: 400px;
+    overflow: hidden;
+    box-shadow: 0 2px 2px green;
+    border-radius: 4px;
+    transition: all 0.25s; 
+    text-align: center;
+    background-color: black;
+    }
+.card:hover
+    {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 18px green;
+    }
+.card img
+    {
+    width: 160px;
+    height: 150px;
+    margin-left: 4px;
+    }
+.card p
+    {
+    font-size: 15px;
+    padding: 0 1em;
+    font-family: 'Island Moments', cursive;
+    }
+#mas
+    {
+    padding:11px 13px;
+    }
+.card a
+    {
+    background-color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 8px 5px;
+    border-radius: 7px;
+    }
+.card h4
+    {
+    color: rgb(107, 24, 24);
+    font-size: 20px ;
+    text-decoration:underline;
+    font-family:'Anton', sans-serif;
+    }
+select 
+    {
+    border: 2px solid red; 
+    border-radius: 3px;
+    background-color:whitesmoke;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    }
+input
+    {
+    border: 2px solid red; 
+    border-radius: 3px;
+    background-color: whitesmoke;
+    font-size: 10px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1099px)
+{
+    .arriba
+    {
+    font-size: 25px;
+    
+    }
+    .abajo
+    {
+    font-size: 25px;    
+    }
+    .contenido
+    {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card
+    {
+        width: 250px;
+        height: 470px;
+        overflow: hidden;
+        box-shadow: 0 2px 2px orangered;
+        border-radius: 4px;
+        transition: all 0.25s; 
+        text-align: center;
+        background-color: black;
+    }
+    .card:hover
+    {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 18px orangered;
+    }
+    .card img
+    {
+        width: 230px;
+        height: 200px;
+        margin-left: 8px;
+    }
+    .card p
+    {
+        font-size: 19px;
+        padding: 0 1em;
+        font-family: 'Island Moments', cursive;        
+    }
+    .card a
+    {
+    background-color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 8px 5px;
+    border-radius: 7px ;   
+    }
+    .card h4
+    {
+        color: rgb(107, 24, 24);
+        font-size: 24px ;
+        text-decoration:underline;
+        font-family:'Anton', sans-serif;
+    }
+    #mas
+    {
+        padding:12px 62px;
+    }
+    select 
+    {
+    border: 2px solid red; 
+    border-radius: 15px;
+    background-color:whitesmoke;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    }
+    input
+    {
+    border: 2px solid red; 
+    border-radius: 15px;
+    background-color: whitesmoke;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    }
+}
+
+    @media (min-width: 1100px)
+{
+    .contenido
+    {
+        width: 100%;
+        height: 530px;
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .card
+    {
+        width: 320px;
+        height: 500px;
+        overflow: hidden;
+        box-shadow: 0 2px 2px red;
+        border-radius: 4px;
+        transition: all 0.25s; 
+        text-align: center;
+        background-color: black;
+    }
+    .card:hover
+    {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 18px red;
+    }
+    .card img
+    {
+        width: 300px;
+        height: 280px;
+        margin-left: 8px;
+    }
+    .card p
+    {
+        font-size: 20px;
+        padding: 0 1em;
+        font-family: 'Island Moments', cursive;        
+    }
+    .card a
+    {
+    background-color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 8px 5px;
+    border-radius: 7px ;   
+    }
+    .card h4
+    {
+        color: rgb(107, 24, 24);
+        font-size: 30px ;
+        text-decoration:underline;
+        font-family:'Anton', sans-serif;
+    }
+    #mas
+    {
+        padding:14px 90px;
+    }
+    select 
+    {
+    border: 2px solid red; 
+    border-radius: 15px;
+    background-color:whitesmoke;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    }
+    input
+    {
+    border: 2px solid red; 
+    border-radius: 15px;
+    background-color: whitesmoke;
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    }   
+}
+    /*:::::Pie de Pagina*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .pie-pagina{
+        width: 100%;
+        background-color: #0a141d;
+    }
+    .pie-pagina .grupo-1{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display:grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap:50px;
+        padding: 45px 0px;
+    }
+    .pie-pagina .grupo-1 .box figure{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pie-pagina .grupo-1 .box figure img{
+        width: 250px;
+    }
+    .pie-pagina .grupo-1 .box h2{
+        color: #fff;
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+    .pie-pagina .grupo-1 .box p{
+        color: #efefef;
+        margin-bottom: 10px;
+    }
+    .pie-pagina .grupo-1 .red-social a{
+        display: inline-block;
+        text-decoration: none;
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        margin-right: 10px;
+        background-color: #0d2033;
+        text-align: center;
+        transition: all 300ms ease;
+    }
+    .pie-pagina .grupo-1 .red-social a:hover{
+        color: red;
+    }
+    .pie-pagina .grupo-2{
+        background-color: #0a1a2a;
+        padding: 15px 10px;
+        text-align: center;
+        color: #fff;
+    }
+    .pie-pagina .grupo-2 small{
+        font-size: 15px;
+    }
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+    .body{
+        background-color: #256bb1;
+    }    
+}
+    #carouselExampleControls{
+        width: 60%;
+        height: 40%;
+        position: center;
+    }
+    #historia{
+        background-color:whitesmoke;
+        color: black;
+        font-size: medium;
+        margin: 1px;
+       font-size: 20px;
+    }
